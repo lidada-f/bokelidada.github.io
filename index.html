@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客 | 首页</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">我的博客</a>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="#about">关于我</a>
+                <a href="#posts">我的推文</a>
+                <a href="#contact">联系我</a>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <header class="hero">
+        <div class="container">
+            <img src="images/profile.jpg" alt="我的照片" class="profile-img">
+            <h1>欢迎来到我的个人空间</h1>
+            <p class="tagline">分享技术、生活和思考</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要内容 -->
+    <main class="container">
+        <!-- 关于我部分 -->
+        <section id="about" class="section">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <p>你好！我是<strong>张三</strong>，一名全栈开发工程师，专注于Web技术和用户体验设计。</p>
+                <p>我热爱编程、写作和分享知识。这个博客将记录我的学习历程、项目经验和生活思考。</p>
+                <p>技术栈：JavaScript, React, Node.js, Python</p>
+            </div>
+        </section>
+
+        <!-- 最新推文部分 -->
+        <section id="posts" class="section">
+            <h2 class="section-title">最新推文</h2>
+            <div class="posts-grid">
+                <!-- 第一篇推文卡片 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="images/post-cover.jpg" alt="推文封面">
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="post.html">我的第一篇推文</a></h3>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar-alt"></i> 2023年7月20日</span>
+                            <span><i class="far fa-clock"></i> 5分钟阅读</span>
+                        </div>
+                        <p>今天是我开始写博客的第一天！这个博客将记录我的学习历程和思考...</p>
+                        <a href="post.html" class="read-more">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- 更多推文占位 -->
+                <article class="post-card coming-soon">
+                    <div class="post-content">
+                        <h3>更多精彩内容即将到来</h3>
+                        <p>我正在准备更多有趣的内容，请保持关注！</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- 联系我部分 -->
+        <section id="contact" class="section">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <p>如果你有任何问题或想与我交流，欢迎通过以下方式联系：</p>
+                <ul class="contact-list">
+                    <li><i class="fas fa-envelope"></i> Email: example@email.com</li>
+                    <li><i class="fas fa-phone"></i> 电话: (123) 456-7890</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 我的个人博客. 保留所有权利.</p>
+            <div class="footer-links">
+                <a href="#">隐私政策</a>
+                <a href="#">使用条款</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
